@@ -1,0 +1,12 @@
+.post-link {
+  color: inherit;
+}
+
+.post-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  border-color: #636e72;
+}

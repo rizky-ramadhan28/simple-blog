@@ -1,0 +1,25 @@
+.navbar {
+  padding: 2rem;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.image-header {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .navbar-menu {
+    justify-content: flex-start;
+  }
+
+  .image-header {
+    height: 50vw;
+  }
+}
